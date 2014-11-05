@@ -4,3 +4,6 @@
 [submodule "lib/cider-nrepl"]
 	path = lib/cider-nrepl
 	url = https://github.com/clojure-emacs/cider-nrepl.git
+[submodule "lib/circe"]
+	path = lib/circe
+	url = git@github.com:jorgenschaefer/circe.git
