@@ -7,3 +7,6 @@
 [submodule "lib/circe"]
 	path = lib/circe
 	url = git@github.com:jorgenschaefer/circe.git
+[submodule "lib/org-mode"]
+	path = lib/org-mode
+	url = git://orgmode.org/org-mode.git

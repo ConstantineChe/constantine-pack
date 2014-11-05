@@ -18,6 +18,8 @@
 (live-add-pack-lib "circe/lisp")
 ;; Mingus (mpd)
 (live-add-pack-lib "mingus")
+;; Org-mode
+(live-add-pack-lib "org-mode/lisp")
 
 (require 'mingus)
 
