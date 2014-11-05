@@ -1,0 +1,6 @@
+[submodule "lib/mingus"]
+	path = lib/mingus
+	url = git://github.com/pft/mingus.git
+[submodule "lib/cider-nrepl"]
+	path = lib/cider-nrepl
+	url = https://github.com/clojure-emacs/cider-nrepl.git
