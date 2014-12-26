@@ -48,6 +48,13 @@
    (format "PRIVMSG &bitlbee :identify %s"
 	   bitlbee-passwd)))
 
+;;;; Edit server
+
+(when (daemonp)
+  (live-load-config-file "edit-server.el")
+  (require 'edit-server)
+     (edit-server-start))
+
 ;;;; Navigation
 
 ;; Speedbar

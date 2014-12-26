@@ -28,3 +28,7 @@
 ;; Mingus
 
 (define-key global-map (kbd "C-c m p") 'mingus)
+
+;; Edit server
+
+(define-key global-map (kbd "C-c C-s") 'edit-server-done)
