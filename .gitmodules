@@ -10,3 +10,6 @@
 [submodule "lib/org-mode"]
 	path = lib/org-mode
 	url = git://orgmode.org/org-mode.git
+[submodule "lib/sonic-pi.el"]
+	path = lib/sonic-pi.el
+	url = git@github.com:repl-electric/sonic-pi.el.git

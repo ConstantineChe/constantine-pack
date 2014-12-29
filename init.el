@@ -55,6 +55,23 @@
   (require 'edit-server)
      (edit-server-start))
 
+;;;; Sonic Pi
+
+;; Load osc
+(live-add-pack-lib "osc")
+
+(add-to-list 'load-path "~/.live-packs/constantine-pack/lib/sonic-pi.el/")
+(require 'sonic-pi)
+
+
+;; add hook
+(add-hook 'sonic-pi-mode-hook
+          (lambda ()
+            ;; This setq can go here instead if you wish
+            (setq sonic-pi-path "~/sonic-pi/")
+                        (define-key ruby-mode-map "\C-c\C-b" 'sonic-pi-stop-all)
+            ))
+
 ;;;; Navigation
 
 ;; Speedbar
