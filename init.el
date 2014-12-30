@@ -67,7 +67,6 @@
 ;; add hook
 (add-hook 'sonic-pi-mode-hook
           (lambda ()
-            ;; This setq can go here instead if you wish
             (setq sonic-pi-path "~/sonic-pi/")
                         (define-key ruby-mode-map "\C-c\C-b" 'sonic-pi-stop-all)
             ))
