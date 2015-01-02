@@ -12,8 +12,6 @@
 
 ;;;;; Libs
 
-(live-add-pack-lib "cider-nrepl")
-
 ;; Circe (IRC)
 (live-add-pack-lib "circe/lisp")
 ;; Mingus (mpd)
