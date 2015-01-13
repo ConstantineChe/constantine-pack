@@ -32,3 +32,9 @@
 ;; Edit server
 
 (define-key global-map (kbd "C-c C-s") 'edit-server-done)
+
+;;;;; Cider
+
+;; Jump to definition
+
+(define-key cider-mode-map (kbd "C-c C-j") 'cider-jump)
